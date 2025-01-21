@@ -4,8 +4,8 @@
   "description": "A beatiful repository",
   "main": "index.js",
   "scripts": {
-    "lint": "npm run lint",
-    "prettier": "npm run prettier",
+    "lint": "eslint .",
+    "prettify": "prettier --check .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
