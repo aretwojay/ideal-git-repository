@@ -1,0 +1,1 @@
+# ideal-git-repository
