@@ -1,3 +1,4 @@
 const sentence = "Hello";
+const option="option";
 
-console.log(sentence);
+console.log(sentence,option);
