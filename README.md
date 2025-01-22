@@ -3,3 +3,4 @@
 3. Use NVM to install your Node dependencies
    $ nvm use 20 (version is the maximal version that can be used atm)
    $ npm install
+4. Install les differents Hooks : bash install-hooks.sh
