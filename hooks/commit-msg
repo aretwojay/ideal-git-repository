@@ -12,6 +12,10 @@
 # Doing this in a hook is a bad idea in general, but the prepare-commit-msg
 # hook is more suited to it.
 #
+COMMIT_MSG_FILE=$1
+
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+
 if ! echo "$COMMIT_MSG" | grep -qE "^(feat|fix|hotfix|imp):"; then
     echo "Erreur : Le message de commit doit commencer par un des mots-clés suivants :"
     echo "  feat, fix, hotfix, imp"
